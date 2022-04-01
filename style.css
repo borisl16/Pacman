@@ -1,3 +1,19 @@
-body{
-    background-color: rgb(178, 162, 205);
+*{
+    box-sizing: border-box;
+}
+
+.boxStart {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+} 
+
+.ghost {
+    position: absolute;
+    height: 100%;
+    width: 80%; 
+    top: 0;
+    left: 10%;
+    border: 1px solid blue;
 }
