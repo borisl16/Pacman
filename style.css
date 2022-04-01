@@ -15,5 +15,37 @@
     width: 80%; 
     top: 0;
     left: 10%;
-    border: 1px solid blue;
+    border: 1px solid black;
+    border-radius: 20%;
+    background-color: green;
+    z-index: 3;
+}
+
+.eyes {
+    position: absolute;
+    display: inline-block; 
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    bottom: 45%;
+    background-color: white
+}
+
+.eyeleft {
+    left: 10%;
+}
+
+.eyeright {
+    right: 10%;
+}
+
+.eyes:after {
+    position: absolute;
+    bottom: 35%;
+    content: " ";
+    background-color: rgb(70, 70, 104);
+    height: 50%;
+    width: 50%;
+    left: 25%;
+    border-radius: 50%;
 }
