@@ -84,20 +84,20 @@
 
 .dot {
     position: absolute;
-    left: 37%;
-    top: 37%;
-    width: 25%;
-    height: 25%;    
+    left: 35%;
+    top: 35%;
+    width: 35%;
+    height: 35%;    
     background-color: white; 
     border-radius: 50%;  
 }
 
 .superdot {
     position: absolute;
-    left: 25%;
-    top: 25%;
-    width: 50%;
-    height: 50%;    
+    left: 31%;
+    top: 31% ;
+    width: 40%;
+    height: 40%;    
     background-color: goldenrod;  
     border-radius: 50%;  
 }
@@ -108,15 +108,30 @@
     width: 100%;
 }
 
-.grid {
+#grid {
     margin: auto;
     padding-top: 40px;
     justify-content: center;
-    display: grid;
     cursor: grab;
-    background-color: black;
+    display: grid;
+    background-color: rgb(228, 9, 60);
     overflow: hidden;
 }
+#container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px ;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
+    border: 1px solid black;
+        
+    }
+
+#container div {
+    
+    height: 100px;
+    width: 100px;
+    
+}
+
 
 .box {
     font-size: 3rem;
@@ -125,9 +140,12 @@
 }
 
 .scoreBoard {
-    background-color: black;
+    background-color: rgb(185, 215, 163);
     text-align: center;
     font-size: 2rem;
     color: white;
     padding: 35px;
+    border: 1px solid red
 }
+
+

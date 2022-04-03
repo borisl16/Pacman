@@ -3,13 +3,30 @@
     <head><title>PacMan V2 </title>
         <link rel="stylesheet" href="style.css">  
     </head>
+
     <body>
         <div class="scoreBoard">
             <span class="score">Score : 0</span>
             <span class="live">Lives : 5</span>
+        </div>        
+
+            <div id="grid" style=" grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px  ;
+            grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;">
+            <div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div>
+            <div class="box wall"><div class="box dot"></div></div><div class="box dot" ></div><div class="box dot" ></div><div class="box dot" ></div><div class="box dot" ></div><div class="box dot" ></div><div class="box dot" ></div><div class="box dot" ></div><div class="box wall" ></div>
+            <div class="box wall"></div><div class="box superdot" ></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box superdot"></div><div class="box wall" ></div>
+            <div class="box wall"></div><div class="box dot"></div><div class="box dot" ></div><div class="box dot" ></div><div class="box dot" ></div><div class="box dot" ></div><div class="box dot" ></div><div class="box dot" ></div><div class="box dot" ></div><div class="box wall" ></div>
+            <div class="box wall"></div><div class="box superdot" ></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box superdot"></div><div class="box wall" ></div>
+            <div class="box wall"></div><div class="box dot"></div><div class="box dot" ></div><div class="box dot" ></div><div class="box dot" ></div><div class="box dot" ></div><div class="box dot" ></div><div class="box dot" ></div><div class="box dot" ></div><div class="box wall" ></div>
+            <div class="box wall"></div><div class="box superdot" ></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box superdot"></div><div class="box wall" ></div>
+            <div class="box wall"></div><div class="box dot"></div><div class="box dot" ></div><div class="box dot" ></div><div class="box dot" ></div><div class="box dot" ></div><div class="box dot" ></div><div class="box dot" ></div><div class="box dot" ></div><div class="box wall" ></div>
+            <div class="box wall"></div><div class="box superdot" ></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box superdot"></div><div class="box wall" ></div>
+            <div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div><div class="box wall"></div>
+
+            </div>
         </div>
-        <div class="grid"></div>
-        
+          
+
         <div class="boxStart">
         <div class="ghost">
             <div class="eyes eyeleft"></div>
@@ -34,7 +51,8 @@
             <div class="wall">
             </div>
         </div>
-
+     
+        
         <script src="app.js"></script>
 
     </body>
